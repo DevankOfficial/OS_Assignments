@@ -1,0 +1,4 @@
+In the module that follows, we add a read/write proc entry called task by pid. We can write the number into the proc entry for whichever process we wish to find the task struct of using its pid.
+
+When we read the proc entry, the name of the process corresponding to the pid we entered will be displayed.\
+IN this module, we have made use of the function pid_task defined in kernel/pid.c .

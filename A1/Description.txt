@@ -1,0 +1,17 @@
+In this zip folder, the ASM files one_1.c and one_2.c are respectively the solutions to task 1 and 2.
+
+The internal commands are: cd, pwd ,and echo.
+The external commands are: mkdir, rm, cat, ls ,and date. Their respective C programs are also contained here.
+For the external programs:
+- mkdir only takes name of directory as ./mkdir <name>.
+- rm only takes name of file as ./rm <name>.
+- cat only takes name of file as ./cat <name>.
+- ls has its default version (./ls) and size version (./ls -s).
+- date will straight away give the date by ./date .
+
+Both ASM programs will take an input for the commands(name of commands) and execute it while taking the corresponding inputs(name of directory, string, etc.).
+i.e. the inputs must be like:-
+Enter the command to begin: echo hello
+or, Enter the command to begin: cd
+or, Enter the command to begin: date
+or, Enter the command to begin: mkdir Dir1

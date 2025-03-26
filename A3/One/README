@@ -1,0 +1,11 @@
+Folder named 'One' contains solutions for the first question and all its variants.
+Both files for variant of program (a) are Async_One_a.c (for the Asynchronous variant) and One_a.c (for Synchronous Variant).
+Both files for variant of program (b) are Async_One_b.c (for the Asynchronous variant) and One_b.c (for Synchronous Variant).
+Both the programs One_a.c & One_b.c utilize pthread and semaphore header files.
+
+In program A,
+    the Dining Philosopher Problem has been solved without the Hungry state being applied.
+    Assuming that all the Philosophers have a rice bowl of their own.
+
+IN program B,
+    To incorporate the two sauce bowls, I have assumed that when a philosopher acquires a sauce bowl they also pick it up and put it down, as well as including an Sauce taking state.

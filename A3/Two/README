@@ -1,0 +1,9 @@
+In this part, Interprocess Communication:
+Assumptions: I have assumed the fixed length of the string as 10(ten).
+             
+For the various variants of this question, the programs P1 and P2 have been named as,
+Unix Domain Sockets variant: Unix_P1.c & Unix_P2.c
+FIFOs variant: Fifo_P1.c & Fifo_P2.c
+Shared Memory variant: Shared_P1.c & Shared_P2.c
+
+All the files use time.h for calculating the time taken.
